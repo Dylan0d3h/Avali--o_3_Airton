@@ -1,61 +1,72 @@
+@media screen and (max-width: 700px) {
 
-  @media screen and (max-width: 700px) {
-    html {
-      width: 485px;
-    }
-
-
-    body {
-      margin: 0;
-      padding: 0;
-      animation: fade-in 0.4s;
-      overflow: hidden;
-      width: 485px;
-
-    }
-
-    header {
-      width: 485px;
-      overflow: hidden;
-    }
-    
-    #head {
-      height: 300px;
-      width: 485px;
-      overflow: hidden;
-    }
-
-    #head-text {
-      font-size: 1rem;
-    }
-  
-    #slogan {
-      font-size: 0.1rem;
-    }
-  
-    .marketing01,
-    .marketing02,
-    .marketing03{
-      padding: 0;
-      width: 445px;
-      overflow: hidden;
-    }
-  
-    .text-mark1,
-    .text-mark2,
-    .text-mark3 {
-      font-size: 24px;
-      text-align: center;
-    }
-  
-    .product {
-      animation: none;
-      opacity: 1;
-      width: 458px;
-    }
-
-    footer {
-      width: 445px;
-      overflow: hidden;
-    }
+  body {
+    margin: 0;
+    padding: 0;
+    animation: fade-in 0.4s;
   }
+
+  header {
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 10px;
+  }
+
+  #head {
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #head-text {
+    width: 90%;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+  }
+
+  #slogan {
+    font-size: 0.8rem;
+    padding: 5px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  .marketing01,
+  .marketing02,
+  .marketing03 {
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  .text-mark1,
+  .text-mark2,
+  .text-mark3 {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .product3 {
+    animation: none;
+    opacity: 1;
+  }
+
+  footer {
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 10px;
+  }
+
+}
