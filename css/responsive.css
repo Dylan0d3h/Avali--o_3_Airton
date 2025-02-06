@@ -1,11 +1,17 @@
 
   @media screen and (max-width: 700px) {
-    
+    html {
+      width: 485px;
+    }
+
+
     body {
       margin: 0;
       padding: 0;
-      font-size: 1rem;
       animation: fade-in 0.4s;
+      overflow: hidden;
+      width: 485px;
+
     }
 
     header {
@@ -18,14 +24,13 @@
       width: 485px;
       overflow: hidden;
     }
-  
-    #slogan h1 {
-      font-size: 0.5rem;
-      
+
+    #head-text {
+      font-size: 1rem;
     }
   
-    #hero-text p {
-      font-size: 24px;
+    #slogan {
+      font-size: 0.1rem;
     }
   
     .marketing01,
@@ -47,5 +52,10 @@
       animation: none;
       opacity: 1;
       width: 458px;
+    }
+
+    footer {
+      width: 445px;
+      overflow: hidden;
     }
   }
