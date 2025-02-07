@@ -30,6 +30,8 @@
   header {
     width: auto;
     padding: 20px;
+    animation: fade-in 1s;
+    opacity: 10;
 
   }
 
@@ -100,6 +102,11 @@
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
+
+  header {
+    animation: fade-in 1s;
+    opacity: 10;
+  }
 
   #slogan {
     margin: 0;
