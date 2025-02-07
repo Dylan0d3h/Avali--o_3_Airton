@@ -114,13 +114,6 @@ header {
   align-items: center;
 }
 
-.marketing01:hover .product3,
-.marketing02:hover .product3,
-.marketing03:hover .product3 {
-  animation: fade-in 2s;
-  animation-fill-mode: forwards;
-}
-
 .text-mark1 {
   font-family: "regular";
   color: rgb(142, 41, 127);
@@ -165,11 +158,6 @@ header {
   font-size: 20px;
   border-radius: 10px;
   cursor: pointer;
-}
-
-.product3 {
-  opacity: 0;
-  animation: fade-out 2s;
 }
 
 footer {

@@ -1,7 +1,30 @@
+@media (min-width: 1024px) {
+
+  .marketing01:hover .product3,
+  .marketing02:hover .product3,
+  .marketing03:hover .product3 {
+    animation: fade-in 2s;
+    animation-fill-mode: forwards;
+}
+
+
+  .product3 {
+    opacity: 0;
+    animation: fade-out 2s;
+  }
+
+}
+
+
+
 @media screen and (max-width: 600px) {
 
   .sidebar {
     display: none;
+  }
+
+  html {
+    animation: none;
   }
 
   body {
@@ -44,21 +67,17 @@
     font-size: 2rem;
   }
 
-  .product3 {
-    animation: none;
-    opacity: 1;
-    height: 350px;
-  }
-
-  .marketing01,
+    .marketing01,
   .marketing02,
   .marketing03 {
-    animation:none;
-    padding: 10px; 
+    animation: fade-out infinite;
+    padding: 10px;
     opacity: 1;
     box-sizing: border-box;
     overflow: hidden;
   }
+
+
 
   .text-mark1,
   .text-mark2,
@@ -71,7 +90,11 @@
     opacity: 1;
   }
 
-
+  .product3 {
+    animation: fade-out infinite;
+    opacity: 1;
+    height: 350px;
+  }
 
   footer {
     height: 50px;
