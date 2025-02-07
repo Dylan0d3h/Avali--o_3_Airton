@@ -7,7 +7,7 @@
   body {
     margin: 0;
     padding: 0;
-    animation: fade-in 0.4s;
+    animation: none;
   }
 
   header {
