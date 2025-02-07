@@ -1,4 +1,4 @@
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
 
   body {
     margin: 0;
@@ -7,10 +7,9 @@
   }
 
   header {
-    width: 100%;
-    box-sizing: border-box;
-    overflow: hidden;
-    padding: 10px;
+    width: auto;
+    padding: 20px;
+
   }
 
   #head {
@@ -24,7 +23,7 @@
     justify-content: center;
   }
 
-  #head-text {
+  #head-text #p {
     width: 90%;
     text-align: center;
     padding: 10px;
@@ -32,8 +31,12 @@
     font-size: 1.2rem;
   }
 
-  #slogan {
-    font-size: 0.8rem;
+  #p {
+    width: 100px;
+  }
+
+  #slogan span {
+    font-size: 24px;
     padding: 5px;
     box-sizing: border-box;
     text-align: center;
@@ -46,6 +49,7 @@
     width: 100%;
     box-sizing: border-box;
     overflow: hidden;
+    animation: none;
   }
 
   .text-mark1,
@@ -59,7 +63,6 @@
 
   .product3 {
     animation: none;
-    opacity: 1;
   }
 
   footer {

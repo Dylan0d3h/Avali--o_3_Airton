@@ -68,7 +68,7 @@ header {
 
 #slogan span {
   font-family: "regular";
-  font-size: 2.5rem;
+  font-size: 2rem;
   letter-spacing: -5;
   opacity: 0;
   animation: fade-in 500ms;
@@ -174,7 +174,8 @@ header {
 
 footer {
   background-color:#51384c ;
-  padding: 10px 20px;
+  padding: 10px 40px;
+  height: 100px;
 }
 
 footer p {
