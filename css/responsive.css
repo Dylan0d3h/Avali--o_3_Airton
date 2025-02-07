@@ -1,4 +1,4 @@
-@media (min-width: 1024px) {
+@media (min-width: 1025px) {
 
   .marketing01:hover .product3,
   .marketing02:hover .product3,
@@ -15,16 +15,10 @@
 
 }
 
-
-
 @media screen and (max-width: 600px) {
 
   .sidebar {
     display: none;
-  }
-
-  html {
-    animation: none;
   }
 
   body {
@@ -101,6 +95,30 @@
     box-sizing: border-box;
     overflow: hidden;
     padding: 10px;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  #slogan {
+    margin: 0;
+    font-size: 1px;
+    height: 80px;
+    width: 650px;
+  }
+
+  .marketing01:hover .product3,
+  .marketing02:hover .product3,
+  .marketing03:hover .product3 {
+    animation: none;
+    opacity: 1;
+}
+
+
+  .product3 {
+    opacity: 1;
+    animation: none;
   }
 
 }
