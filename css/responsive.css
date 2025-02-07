@@ -1,5 +1,9 @@
 @media screen and (max-width: 600px) {
 
+  .sidebar {
+    display: none;
+  }
+
   body {
     margin: 0;
     padding: 0;
@@ -13,8 +17,7 @@
   }
 
   #head {
-    height: auto;
-    width: 100%;
+    height: 100px;
     overflow: hidden;
     background-size: cover;
     display: flex;
@@ -23,32 +26,36 @@
     justify-content: center;
   }
 
-  #head-text #p {
-    width: 90%;
-    text-align: center;
-    padding: 10px;
-    box-sizing: border-box;
-    font-size: 1.2rem;
+  #slogan {
+    margin: 0;
+    font-size: 1px;
+    height: 100px;
+    width: 300px;
+  }
+
+  h1 {
+    margin: 0;
   }
 
   #p {
-    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin: 0;
+    font-size: 2rem;
   }
 
-  #slogan span {
-    font-size: 24px;
-    padding: 5px;
-    box-sizing: border-box;
-    text-align: center;
+  .product3 {
+    animation: none;
+    opacity: 1;
+    height: 350px;
   }
 
   .marketing01,
   .marketing02,
   .marketing03 {
+    animation:none;
     padding: 10px; 
-    animation:fake-out;
     opacity: 1;
-    width: 100%;
     box-sizing: border-box;
     overflow: hidden;
   }
@@ -60,13 +67,11 @@
     text-align: center;
     padding: 10px;
     box-sizing: border-box;
+    animation: none;
+    opacity: 1;
   }
 
-  .product3 {
-    animation: none;
-    opacity: 0;
-    height: 350px;
-  }
+
 
   footer {
     height: 50px;
